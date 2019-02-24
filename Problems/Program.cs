@@ -7,6 +7,10 @@ namespace Problems
     {
         public string Prefix(string input)
         {
+            if(input == null)
+            {
+                return null;
+            }
             if(input == String.Empty)
             {
                 return "0,0:";
